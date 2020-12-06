@@ -8,15 +8,15 @@ sites:
     url: https://rod-hosting.com/
   - name: "Serveur Panel Web"
     url: https://cpanel.rod-hosting.com
- 
-   - name: "Serveur DNS secondaire"
+## Serveur Panel
+  - name: "Serveur DNS secondaire"
     url: $SECRET_SITE_1
-   - name: "Serveur Windows Jeux" 
+  - name: "Serveur Windows Jeux" 
     url: $SECRET_SITE_2
-   - name: "Serveur Linux Jeux" 
+  - name: "Serveur Linux Jeux" 
     url: $SECRET_SITE_3
-
-    - name: "Serveur Secondaire (mdp et matomo)"
+## Serveur secondaire
+  - name: "Serveur Secondaire (mdp et matomo)"
     url: $SECRET_SITE_4
     
 status-website:
