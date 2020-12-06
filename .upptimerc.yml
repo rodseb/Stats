@@ -4,9 +4,21 @@ repo: Stats # Your Github repository name
 
 # Add your sites here
 sites:
-  - name: Google
-    url: https://www.google.com
+  - name: Site principal ROD Hosting
+    url: https://rod-hosting.com/
+  - name: Serveur Panel Web
+    url: https://cpanel.rod-hosting.com
+ 
+   - name: Serveur DNS secondaire 
+    url: $SECRET_SITE_1
+   - name: Serveur Windows Jeux 
+    url: $SECRET_SITE_2
+   - name: Serveur Linux Jeux 
+    url: $SECRET_SITE_3
 
+    - name: Serveur Secondaire (mdp et matomo) 
+    url: $SECRET_SITE_4
+    
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
   cname: status2.rod-hosting.com
