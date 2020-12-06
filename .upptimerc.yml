@@ -4,19 +4,19 @@ repo: Stats # Your Github repository name
 
 # Add your sites here
 sites:
-  - name: Site principal ROD Hosting
+  - name: "Site principal ROD Hosting"
     url: https://rod-hosting.com/
-  - name: Serveur Panel Web
+  - name: "Serveur Panel Web"
     url: https://cpanel.rod-hosting.com
  
-   - name: Serveur DNS secondaire 
+   - name: "Serveur DNS secondaire"
     url: $SECRET_SITE_1
-   - name: Serveur Windows Jeux 
+   - name: "Serveur Windows Jeux" 
     url: $SECRET_SITE_2
-   - name: Serveur Linux Jeux 
+   - name: "Serveur Linux Jeux" 
     url: $SECRET_SITE_3
 
-    - name: Serveur Secondaire (mdp et matomo) 
+    - name: "Serveur Secondaire (mdp et matomo)"
     url: $SECRET_SITE_4
     
 status-website:
