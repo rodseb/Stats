@@ -13,12 +13,13 @@ sites:
     url: $SECRET_SITE_1
   - name: "Serveur Windows Jeux" 
     url: $SECRET_SITE_2
+    __dangerous__insecure: true
+
   - name: "Serveur Linux Jeux" 
     url: $SECRET_SITE_3
 ## Serveur secondaire
   - name: "Serveur Secondaire (mdp et matomo)"
     url: $SECRET_SITE_4
-    __dangerous__insecure: true
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
