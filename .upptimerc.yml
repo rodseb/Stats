@@ -7,13 +7,7 @@ sites:
   - name: "Site principal ROD Hosting"
     url: https://rod-hosting.com/
   - name: "Serveur Panel Web"
-    url: https://cpanel.rod-hosting.com
-## Serveur Panel
-  - name: "Serveur DNS secondaire"
-    url: $SECRET_SITE_1
-  - name: "Serveur Windows Jeux" 
-    url: $SECRET_SITE_2
-    __dangerous__insecure: true
+    url: https://panel.rod-hosting.com
 
   - name: "Serveur Linux Jeux" 
     url: $SECRET_SITE_3
