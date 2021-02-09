@@ -12,7 +12,7 @@ sites:
   - name: "Serveur Linux Jeux" 
     url: $SECRET_SITE_3
 ## Serveur secondaire
-  - name: "Serveur Secondaire (mdp et matomo)"
+  - name: "Serveur Secondaire (matomo)"
     url: $SECRET_SITE_4
  
 status-website:
