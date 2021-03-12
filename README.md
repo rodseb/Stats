@@ -1,4 +1,4 @@
-# [📈 Live Status](https://status2.rod-hosting.com): <!--live status--> **🟧 Partial outage**
+# [📈 Live Status](https://status.rod-hosting.com): <!--live status--> **🟧 Partial outage**
 
 This repository contains the open-source uptime monitor and status page for [rodseb](https://status2.rod-hosting.com), powered by [Upptime](https://github.com/upptime/upptime).
 
