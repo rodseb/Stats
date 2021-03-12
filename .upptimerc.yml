@@ -2,7 +2,7 @@
 owner: rodseb # Your GitHub username
 repo: Stats # Your Github repository name
 
-
+notifications:
 NOTIFICATION_EMAIL: true
 NOTIFICATION_EMAIL_FROM: Status service ROD Hosting
 NOTIFICATION_EMAIL_TO: $SECRET_SITE_5
