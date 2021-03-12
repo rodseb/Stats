@@ -2,6 +2,16 @@
 owner: rodseb # Your GitHub username
 repo: Stats # Your Github repository name
 
+
+NOTIFICATION_EMAIL: true
+NOTIFICATION_EMAIL_FROM: Status service ROD Hosting
+NOTIFICATION_EMAIL_TO: $SECRET_SITE_5
+NOTIFICATION_EMAIL_SMTP: true
+NOTIFICATION_EMAIL_SMTP_PORT: 465
+NOTIFICATION_EMAIL_SMTP_HOST: rod-hosting.com
+NOTIFICATION_EMAIL_SMTP_USERNAME: $SECRET_SITE_6
+NOTIFICATION_EMAIL_SMTP_PASSWORD: $SECRET_SITE_7
+
 # Add your sites here
 sites:
   - name: "Site principal ROD Hosting"
@@ -14,14 +24,7 @@ sites:
 ## Serveur secondaire
   - name: "Serveur Secondaire (matomo)"
     url: $SECRET_SITE_4
- NOTIFICATION_EMAIL: true
- NOTIFICATION_EMAIL_FROM: Status service ROD Hosting
- NOTIFICATION_EMAIL_TO: $SECRET_SITE_5
- NOTIFICATION_EMAIL_SMTP: true
- NOTIFICATION_EMAIL_SMTP_PORT: 465
- NOTIFICATION_EMAIL_SMTP_HOST: rod-hosting.com
- NOTIFICATION_EMAIL_SMTP_USERNAME: $SECRET_SITE_6
- NOTIFICATION_EMAIL_SMTP_PASSWORD: $SECRET_SITE_7
+
  
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
